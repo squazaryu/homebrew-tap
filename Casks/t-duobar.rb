@@ -12,7 +12,7 @@ cask "t-duobar" do
   end
 
   conflicts_with cask: "duobar"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "DuoBar.app"
 
