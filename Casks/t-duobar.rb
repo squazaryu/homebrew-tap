@@ -1,6 +1,6 @@
 cask "t-duobar" do
-  version "1.9.0"
-  sha256 "4686cb542466b1425196898f6a8522920d4a656beb56866134eea28a41edaf9a"
+  version "1.10.0"
+  sha256 "1e457ed5d515a4fbbbbc22a8ef58db06818d807a3560db4abf1c4b18d4be76bf"
 
   url "https://github.com/squazaryu/T-DuoBar/releases/download/v#{version}/T-DuoBar-#{version}.dmg"
   name "T-DuoBar"
