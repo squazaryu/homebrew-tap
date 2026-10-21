@@ -1,8 +1,8 @@
 cask "t-duobar" do
-  version "1.12.0"
-  sha256 "74a03e8295da0913c661677a26d4e58e943a0dc8f3f389ca8cd068ea466fc159"
+  version "1.12.0,37"
+  sha256 "1cda17691dd3e3f5722f88342d60a209d69583d480f43019d3b585170b1c0746"
 
-  url "https://github.com/squazaryu/T-DuoBar/releases/download/v#{version}/T-DuoBar-#{version}.dmg"
+  url "https://github.com/squazaryu/T-DuoBar/releases/download/v#{version.before_comma}/T-DuoBar-#{version.before_comma}.dmg?build=#{version.after_comma}"
   name "T-DuoBar"
   desc "Menu bar battery, network and audio controls"
   homepage "https://github.com/squazaryu/T-DuoBar"
